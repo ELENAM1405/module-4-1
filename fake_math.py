@@ -1,11 +1,9 @@
 def divide(first, second):
     if second == 0:
         return 'Ошибка'
-    elif second != 0:
-        return first / second
+    return first / second
 
 
-result1 = divide(69, 3)
-result2 = divide(3, 0)
-print(result1)
-print(result2)
+if __name__ == '__main__':
+    print(divide(69, 3))
+    print(divide(3, 0))

@@ -4,11 +4,9 @@ from math import inf
 def divide(first, second):
     if second == 0:
         return inf
-    elif second != 0:
-        return first / second
+    return first / second
 
 
-result3 = divide(49, 7)
-result4 = divide(15, 0)
-print(result3)
-print(result4)
+if __name__ == '__main__':
+    print(divide(49, 7))
+    print(divide(15, 0))
